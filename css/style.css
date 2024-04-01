@@ -337,6 +337,7 @@ body {
   cursor: pointer;
   border-radius: 4px;
   /* row-gap: 8px; */
+  flex-basis: calc((100% - 4 * 8) / 5);
 }
 
 .sorting-button:is(:focus, :hover) {
@@ -360,6 +361,7 @@ body {
 .projects-item {
   /* margin-bottom: 30px; */
   /* gap: 8px; */
+  flex-basis: calc((100% - 2 * 30) / 3);
 }
 
 /* .projects-item:not(:nth-child(3n)) {
